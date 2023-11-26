@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <div className="h-screen bg-white relative flex flex-col gap-5 items-center justify-center">
       <img
-        src="./public/assets/commlead-logo-4x.png"
+        src="./assets/commlead-logo-4x.png"
         alt="University of Washington Communication Leadership Logo"
         className="absolute"
       />
