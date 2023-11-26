@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Encode Sans Black';
+  src: local('Encode Sans'),
+    url('./fonts/EncodeSansNormal-900-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'),
+    url('./fonts/FontfabricUniSansRegular.otf') format('opentype');
+}
