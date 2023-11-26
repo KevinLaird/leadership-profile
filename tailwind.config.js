@@ -10,6 +10,12 @@ export default {
     extend: {
       animation: {
         'spin-slow': 'spin 3s linear infinite',
+        'bounce-slow': 'bounce 3s linear infinite',
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(-5%)' },
+        },
       },
     },
   },
