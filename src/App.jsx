@@ -27,7 +27,7 @@ function App() {
             className="animate-[spin_3s_linear_infinite]"
             alt="Loader"
           />
-          <p className="font-black font-encode text-3xl">Loading...</p>
+          <p className="font-black font-encode text-3xl">Leading...</p>
         </div>
       ) : (
         <Landing />
