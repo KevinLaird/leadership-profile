@@ -1,9 +1,0 @@
-.tabList {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 2rem;
-}
-
-.active {
-  background-color: #fc7060 !important;
-}
