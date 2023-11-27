@@ -1,0 +1,21 @@
+/* For larger screens */
+.Values {
+  margin: 0 6.5rem;
+  margin-top: 5rem;
+}
+
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+  .Values {
+    margin: 0 4rem; /* Adjust margin for medium-sized screens */
+    margin-top: 4rem; /* Adjust top margin for medium-sized screens */
+  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .Values {
+    margin: 0 2rem; /* Adjust margin for small screens */
+    margin-top: 3rem; /* Adjust top margin for small screens */
+  }
+}
