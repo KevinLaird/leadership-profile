@@ -1,0 +1,10 @@
+.title {
+  text-transform: uppercase;
+  color: #fefefe;
+}
+
+.box {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #fc7060;
+}
