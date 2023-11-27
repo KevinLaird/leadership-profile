@@ -1,24 +1,28 @@
 import KeyboardDoubleArrowDownRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowDownRounded';
+import styles from './Landing.module.css';
 
 export default function Landing() {
   return (
-    <div className="h-screen bg-white relative flex flex-col gap-5 items-center justify-center">
-      <img
-        src="./assets/commlead-logo-4x.png"
-        alt="University of Washington Communication Leadership Logo"
-        className="absolute"
-      />
-      <div className="z-40 text-center">
-        <h1 className="text-9xl font-black font-encode">Kevin Laird</h1>
-        <h2 className="text-5xl font-bold font-encode text-gray-950">
-          Leadership Profile
+    <div
+      className={`relative flex flex-col gap-5 items-center justify-center ${styles.bg}`}
+    >
+      <div className={`z-40 text-center ${styles.bgTitle}`}>
+        <h2 className={`font-haettenschweiler text-5xl ${styles.h2}`}>
+          Kevin Laird
         </h2>
+        <h1 className={`font-haettenschweiler text-9xl ${styles.h1}`}>
+          Leadership Profile
+        </h1>
       </div>
-      <div className="animate-bounce-slow absolute bottom-0 pb-5">
-        <KeyboardDoubleArrowDownRoundedIcon
-          sx={{ fontSize: 72 }}
-          color="action"
-        />
+      <div
+        className={`w-full h-24 absolute bottom-0 flex items-center justify-center ${styles.downBanner}`}
+      >
+        <div className="animate-bounce-slow">
+          <KeyboardDoubleArrowDownRoundedIcon
+            sx={{ fontSize: 72 }}
+            color="action"
+          />
+        </div>
       </div>
     </div>
   );
