@@ -1,19 +1,23 @@
-.h1 {
-  color: #090d0f;
-  text-align: center;
+/* Common styles for both desktop and mobile */
+.h1,
+.h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.h1 {
+  color: #090d0f;
+  text-align: center;
   letter-spacing: 0.4rem;
   max-width: 35rem;
+  font-size: 8rem;
 }
 
 .h2 {
   color: #172126;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.15rem;
+  font-size: 3rem;
 }
 
 .bgTitle {
@@ -25,7 +29,7 @@
 }
 
 .bg {
-  background-image: url('./assets/landing-background.png');
+  background-image: url('/assets/landing-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -34,4 +38,15 @@
 
 .downBanner {
   background: #fefefe;
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 5rem;
+  }
+
+  .h2 {
+    font-size: 2rem;
+  }
 }
