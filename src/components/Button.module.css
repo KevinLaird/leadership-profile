@@ -1,0 +1,19 @@
+.Button {
+  display: inline-flex;
+  padding: 2px 56px;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #455e72 !important;
+  color: #fff;
+  font-family: Haettenschweiler;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.Button:hover {
+  box-shadow: 4px 4px 0px 0px #ffb54a;
+  transform: translateY(-2px);
+  transition: all 0.2s;
+}
