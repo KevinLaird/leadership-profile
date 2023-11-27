@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Encode Sans Black';
-  src: local('Encode Sans'),
-    url('./fonts/EncodeSansNormal-900-Black.ttf') format('truetype');
+  font-family: 'Haettenschweiler';
+  src: url('/fonts/Haettenschweiler-Regular.ttf') format('opentype');
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: local('Open Sans'),
-    url('./fonts/FontfabricUniSansRegular.otf') format('opentype');
+  font-family: 'Roboto Light';
+  src: url('/fonts/Roboto-Light.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('/fonts/Roboto-Regular.ttf') format('opentype');
 }
