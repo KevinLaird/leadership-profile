@@ -1,0 +1,15 @@
+.BGBars {
+  background-image: url('./assets/BGBars.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: inherit;
+  width: 100%;
+}
+
+.content {
+  max-width: 45rem;
+}
+
+.contentBox {
+  height: 100svh;
+}
