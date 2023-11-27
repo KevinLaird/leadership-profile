@@ -4,8 +4,8 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      encode: ['Encode Sans', 'sans-serif'],
-      sans: ['Open Sans', 'sans-serif'],
+      haettenschweiler: ['Haettenschweiler ', 'sans-serif'],
+      robotolight: ['Roboto Light ', 'sans-serif'],
     },
     extend: {
       animation: {
