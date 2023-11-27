@@ -1,0 +1,34 @@
+/* For larger screens */
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tabList {
+  display: flex;
+  gap: 2rem;
+}
+
+.active {
+  background-color: #fc7060 !important;
+}
+
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+  .tabList {
+    flex-wrap: wrap; /* Allow tabs to wrap on medium-sized screens */
+    gap: 1rem; /* Adjust gap for medium-sized screens */
+  }
+  .tabContainer {
+    gap: 1rem;
+  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .tabList {
+    flex-direction: column; /* Stack tabs vertically on small screens */
+    gap: 1rem; /* Adjust gap for small screens */
+  }
+}

@@ -1,0 +1,55 @@
+/* For larger screens */
+.tabBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: 4px solid var(--Tertiary, #455e72);
+  width: auto;
+  min-height: 28rem;
+}
+
+.contentBox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 12rem;
+}
+
+.h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+  .tabBox {
+    align-items: center; /* Center items on medium-sized screens */
+    padding: 2rem; /* Adjust padding for medium-sized screens */
+  }
+
+  .contentBox {
+    flex-direction: column; /* Stack items vertically on medium-sized screens */
+    padding: 2rem; /* Adjust padding for medium-sized screens */
+  }
+
+  .h2 {
+    font-size: 2rem; /* Adjust font size for medium-sized screens */
+  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .tabBox {
+    min-height: auto; /* Remove minimum height on small screens */
+  }
+
+  .contentBox {
+    padding: 1.5rem; /* Adjust padding for small screens */
+  }
+
+  .h2 {
+    font-size: 1.8rem; /* Adjust font size for small screens */
+  }
+}
