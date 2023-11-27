@@ -1,18 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/haettenschweiler');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: 'Haettenschweiler';
-  src: url('/fonts/Haettenschweiler-Regular.ttf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Roboto Light';
-  src: url('/fonts/Roboto-Light.ttf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Roboto Regular';
-  src: url('/fonts/Roboto-Regular.ttf') format('opentype');
-}
