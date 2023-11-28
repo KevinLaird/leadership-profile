@@ -1,4 +1,3 @@
-import React from 'react';
 import CopyContentContainer from '../components/CopyContentContainer';
 
 const Dreams = () => {
