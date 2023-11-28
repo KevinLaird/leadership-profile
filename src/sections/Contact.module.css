@@ -1,0 +1,83 @@
+.textContainer {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-size: 8rem;
+}
+.h3 {
+  font-size: 2.5rem;
+}
+.h4 {
+  font-size: 1.5rem;
+  color: #404040;
+}
+
+.ctaContainer {
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.linkContainer {
+  background-color: #ff7161;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 4rem;
+  min-width: 40%;
+  text-decoration: underline;
+}
+
+.cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cta:hover {
+  transition: all 0.2s;
+  background-color: #fff;
+  color: #ff7161;
+}
+.icon {
+  font-size: inherit !important;
+}
+
+@media screen and (max-width: 768px) {
+  .textContainer {
+    margin: 3rem; /* Further reduce margin for smaller screens */
+    letter-spacing: normal;
+    line-height: 0.7;
+  }
+
+  .h2 {
+    font-size: 4rem; /* Further decrease font size for smaller screens */
+  }
+
+  .h3 {
+    font-size: 2.2rem; /* Further decrease font size for smaller screens */
+  }
+
+  .h4 {
+    font-size: 1rem; /* Further decrease font size for smaller screens */
+    line-height: 2;
+  }
+
+  .ctaContainer {
+    font-size: 2rem; /* Further decrease font size for smaller screens */
+  }
+
+  .linkContainer {
+    padding: 1.5rem; /* Further decrease padding for smaller screens */
+  }
+}
