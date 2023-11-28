@@ -15,7 +15,7 @@ const Introduction = () => {
           className="w-full max-w-md max-h-60 lg:max-h-full object-contain" // Preserve aspect ratio
         />
         <div className="flex flex-col gap-10">
-          <h1 className="font-haettenschweiler text-4xl text-center lg:text-left">
+          <h1 className="font-haettenschweiler text-4xl text-center tracking-wider	uppercase lg:text-left">
             Transformational Leadership
           </h1>
           <p className={`font-robotolight text-2xl ${styles.content}`}>
