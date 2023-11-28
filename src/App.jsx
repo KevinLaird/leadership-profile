@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import Landing from './components/Landing';
 import styles from './App.module.css';
-import Introduction from './components/Introduction';
+import Landing from './sections/Landing';
+import Introduction from './sections/Introduction';
 import Tabs from './components/Tabs';
 import TabContent from './components/TabContent';
 import TitleBanner from './components/TitleBanner';
@@ -111,6 +111,9 @@ function App() {
             <div className={styles.Values}>
               <Tabs tabs={tabs} />
             </div>
+          </section>
+          <section>
+            <TitleBanner title="opportunities" />
           </section>
         </>
       )}
