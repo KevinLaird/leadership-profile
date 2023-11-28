@@ -1,0 +1,42 @@
+/* ImageWithListItem.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 11rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.listContainer {
+  font-size: 1rem;
+  list-style-type: none;
+  padding: 0;
+  align-items: flex-start;
+  z-index: 50;
+  position: relative;
+}
+
+.listContainer li {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 1rem; /* Further adjust the gap for smaller screens */
+  }
+
+  .image {
+    display: none;
+  }
+
+  .listContainer li {
+    font-size: 3.4rem; /* Further decrease font size for smaller screens */
+  }
+}
