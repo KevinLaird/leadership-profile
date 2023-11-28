@@ -1,0 +1,9 @@
+.title {
+  color: #fc7060;
+  background-color: #ffffff;
+  font-size: 8rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: -10%;
+  padding: 0 2rem;
+}
