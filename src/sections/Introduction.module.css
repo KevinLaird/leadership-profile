@@ -1,11 +1,3 @@
-.BGBars {
-  background-image: url('/assets/BGBars.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: inherit;
-  width: 100%;
-}
-
 .content {
   max-width: 55rem;
   margin: 0 auto; /* Center the content horizontally */
@@ -30,9 +22,6 @@
 
 /* Responsive styles for mobile */
 @media screen and (max-width: 768px) {
-  .BGBars {
-    background-image: none; /* Remove background image on mobile screens */
-  }
   .aboutContainer {
     gap: 3rem;
   }
