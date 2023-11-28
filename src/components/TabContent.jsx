@@ -24,7 +24,7 @@ const TabContent = ({
         <img
           src={imageSrc}
           alt={imageAlt}
-          className={`w-full max-w-md lg:max-w-full max-h-60 lg:max-h-full object-contain ${imageClassName}`}
+          className={`w-full max-w-md lg:max-w-full max-h-60 lg:max-h-full object-contain ${styles.image} ${imageClassName}`}
         />
         <div className="flex flex-col gap-2">
           <h2
