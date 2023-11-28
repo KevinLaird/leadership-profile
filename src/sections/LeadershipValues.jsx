@@ -36,8 +36,8 @@ const LeadershipValues = () => {
       label: 'empathy',
       content: (
         <TabContent
-          imageSrc="/assets/kevinWithABird.png"
-          imageAlt="Profile picture of Kevin Laird smiling. Ain't he cute?"
+          imageSrc="/assets/hostwinds.png"
+          imageAlt="Logo of Hostwinds, a company I (Kevin) worked at. Empathy was a key component at this job!"
           imageClassName="your-custom-image-class"
           title="empathy"
           paragraphs={empathyContent}
@@ -45,13 +45,13 @@ const LeadershipValues = () => {
       ),
     },
     {
-      label: 'kindness',
+      label: 'Stability',
       content: (
         <TabContent
           imageSrc="/assets/kevinWithABird.png"
           imageAlt="Profile picture of Kevin Laird smiling. Ain't he cute?"
           imageClassName="your-custom-image-class"
-          title="kindness"
+          title="Stability"
           paragraphs={stabilityContent}
         />
       ),
@@ -60,8 +60,8 @@ const LeadershipValues = () => {
       label: 'patience',
       content: (
         <TabContent
-          imageSrc="/assets/kevinWithABird.png"
-          imageAlt="Profile picture of Kevin Laird smiling. Ain't he cute?"
+          imageSrc="/assets/standoutReportLogo.png"
+          imageAlt="StandOut Report Logo, where I got Leadership Roles"
           imageClassName="your-custom-image-class"
           title="patience"
           paragraphs={patienceContent}
