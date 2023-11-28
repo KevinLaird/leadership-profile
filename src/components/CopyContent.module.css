@@ -1,0 +1,22 @@
+.container {
+  min-height: 28rem;
+  gap: 5rem;
+}
+
+.textContainer {
+  max-width: 40%;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.textContainer p {
+  margin-bottom: 2rem; /* Add a bottom margin of 2rem to each paragraph */
+}
+
+.textContainer p:last-child {
+  margin-bottom: 0; /* Remove the bottom margin from the last paragraph */
+}
