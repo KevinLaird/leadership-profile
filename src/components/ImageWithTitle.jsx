@@ -4,11 +4,13 @@ import styles from './ImageWithTitle.module.css';
 const ImageWithTitle = ({ imageSrc, imageAlt, imageClassName, title }) => {
   return (
     <div className="relative">
-      <h2 className={`font-haettenschweiler ${styles.title}`}>{title}</h2>
+      <div className={styles.overlay}>
+        <h2 className={`font-haettenschweiler ${styles.title}`}>{title}</h2>
+      </div>
       <img
         src={imageSrc}
         alt={imageAlt}
-        className={`w-full max-w-md lg:max-w-full max-h-60 lg:max-h-full object-contain ${styles.image} ${imageClassName}`}
+        className={`${styles.image} ${imageClassName}`}
       />
     </div>
   );
