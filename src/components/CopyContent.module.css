@@ -1,10 +1,12 @@
 .container {
   min-height: 28rem;
   gap: 5rem;
+  display: flex;
+  flex-direction: column; /* Display content in a column on small screens */
 }
 
 .textContainer {
-  max-width: 40%;
+  max-width: 100%; /* Allow text to take up the full width on small screens */
   font-size: 1.5rem;
   flex: 1;
 }
@@ -13,10 +15,17 @@
   flex: 1;
 }
 
-.textContainer p {
-  margin-bottom: 2rem; /* Add a bottom margin of 2rem to each paragraph */
-}
+/* Media Query for screens with a min-width of 768px */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row; /* Display content in a row on larger screens */
+  }
 
-.textContainer p:last-child {
-  margin-bottom: 0; /* Remove the bottom margin from the last paragraph */
+  .textContainer {
+    max-width: 40%;
+  }
+
+  .imageContainer {
+    max-width: 60%;
+  }
 }

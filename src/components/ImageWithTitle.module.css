@@ -1,28 +1,35 @@
 .title {
   color: #fc7060;
   background-color: #ffffff;
-  font-size: 8rem;
+  font-size: 6rem; /* Adjust font size for smaller screens */
   text-transform: uppercase;
   z-index: 1;
-  margin: 0; /* Reset margin for accurate positioning */
-  position: absolute; /* Set absolute positioning for the title */
-  top: 50%; /* Position the title at the middle vertically */
-  left: 0; /* Position the title at the left */
-  transform: translateY(-50%); /* Adjust vertical alignment */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   line-height: normal;
 }
 
 .overlay {
-  position: relative; /* Change to relative positioning */
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2; /* Place the overlay above the image */
+  z-index: 2;
 }
 
 .image {
-  z-index: 0; /* Ensure the image is below the overlay */
-  width: 100%; /* Make the image take up 100% of its container's width */
-  height: auto; /* Maintain the aspect ratio */
+  z-index: 0;
+  width: 100%;
+  height: auto;
   min-width: 0;
+}
+
+/* Media Query for screens with a max-width of 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
 }

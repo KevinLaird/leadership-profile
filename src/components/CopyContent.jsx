@@ -10,7 +10,10 @@ const CopyContent = ({
   paragraphs,
   index,
 }) => {
-  const isEven = index % 2 === 0; // Check if the index is even
+  // Check if the screen width is less than 768 pixels (adjust as needed)
+  const isMobile = window.innerWidth < 768;
+
+  const isEven = isMobile ? false : index % 2 === 0;
 
   return (
     <div
@@ -18,8 +21,8 @@ const CopyContent = ({
         isEven ? styles.even : styles.odd
       }`}
     >
-      {isEven ? (
-        // If index is even, position image at index 0 and text at index 1
+      {isEven || isMobile ? (
+        // If index is even or on a mobile screen, position image at index 0 and text at index 1
         <>
           <div className={styles.imageContainer}>
             <ImageWithTitle
