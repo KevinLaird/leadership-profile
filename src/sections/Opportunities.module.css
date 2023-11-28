@@ -1,0 +1,16 @@
+.container {
+  margin: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 4rem; /* Adjust margin for medium-sized screens */
+  }
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 2rem; /* Adjust margin for small screens */
+  }
+}
