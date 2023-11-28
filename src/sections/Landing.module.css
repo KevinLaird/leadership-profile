@@ -4,6 +4,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-transform: uppercase;
 }
 
 .h1 {
@@ -15,7 +16,7 @@
 }
 
 .h2 {
-  color: #172126;
+  color: #404040;
   letter-spacing: 0.15rem;
   font-size: 3rem;
 }
