@@ -1,0 +1,18 @@
+/* For larger screens */
+.container {
+  margin: 5rem;
+}
+
+/* Tablet responsiveness */
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 4rem; /* Adjust margin for medium-sized screens */
+  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 2rem; /* Adjust margin for small screens */
+  }
+}
