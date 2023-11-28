@@ -9,7 +9,7 @@ const Introduction = () => {
       <div className="relative items-center justify-center z-20 flex flex-col lg:flex-row gap-20">
         <img
           src="./assets/Profile.png"
-          alt="Profile picture of Kevin Laird smiling. Ain't he cute?"
+          alt="Profile picture of Kevin Laird smiling."
           className="w-full max-w-md max-h-60 lg:max-h-full object-contain" // Preserve aspect ratio
         />
         <div className="flex flex-col gap-10">
