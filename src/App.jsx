@@ -5,6 +5,8 @@ import TitleBanner from './components/TitleBanner';
 import Dreams from './sections/Dreams';
 import Opportunities from './sections/Opportunities';
 import LeadershipValues from './sections/LeadershipValues';
+import Contact from './sections/Contact';
+import Strengths from './sections/Strengths';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,19 +39,24 @@ function App() {
             <Introduction />
           </section>
           <section id="values">
-            <TitleBanner title="leadership values" />
+            <TitleBanner title="my leadership values" />
             <LeadershipValues />
           </section>
           <section id="opportunities">
-            <TitleBanner title="opportunities" />
+            <TitleBanner title="opportunities to improve" />
             <Opportunities />
           </section>
+          <section id="strengths">
+            <TitleBanner title="my strengths" />
+            <Strengths />
+          </section>
           <section id="dreams">
-            <TitleBanner title="dreams" />
+            <TitleBanner title="my hopes & dreams" />
             <Dreams />
           </section>
           <section id="contact">
             <TitleBanner title="contact" />
+            <Contact />
           </section>
         </>
       )}
