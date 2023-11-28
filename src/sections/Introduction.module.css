@@ -15,12 +15,28 @@
   margin: 5rem;
 }
 
+.aboutContainer {
+  gap: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .contentBox {
+    margin: 4rem; /* Adjust margin for medium-sized screens */
+  }
+  .aboutContainer {
+    gap: 2rem;
+  }
+}
+
 /* Responsive styles for mobile */
 @media screen and (max-width: 768px) {
-  .content {
-    padding: 20px; /* Add some padding for better readability on smaller screens */
-  }
   .BGBars {
     background-image: none; /* Remove background image on mobile screens */
+  }
+  .aboutContainer {
+    gap: 3rem;
+  }
+  .contentBox {
+    margin: 2rem; /* Adjust margin for small screens */
   }
 }

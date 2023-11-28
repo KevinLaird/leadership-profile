@@ -6,7 +6,9 @@ const Introduction = () => {
       className={`relative ${styles.contentBox} flex items-center justify-center`}
     >
       <div className={`absolute top-0 ${styles.BGBars}`} />
-      <div className="relative items-center justify-center z-20 flex flex-col lg:flex-row gap-20">
+      <div
+        className={`relative items-center justify-center z-20 flex flex-col lg:flex-row ${styles.aboutContainer}`}
+      >
         <img
           src="./assets/Profile.png"
           alt="Profile of Kevin Laird smiling."

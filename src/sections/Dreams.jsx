@@ -1,4 +1,5 @@
 import CopyContentContainer from '../components/CopyContentContainer';
+import styles from './Dreams.module.css';
 
 const Dreams = () => {
   const copyContentData = [
@@ -27,7 +28,11 @@ const Dreams = () => {
       ],
     },
   ];
-  return <CopyContentContainer copyContentData={copyContentData} />;
+  return (
+    <div className={styles.container}>
+      <CopyContentContainer copyContentData={copyContentData} />;
+    </div>
+  );
 };
 
 export default Dreams;
