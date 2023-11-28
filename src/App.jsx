@@ -5,6 +5,8 @@ import Introduction from './sections/Introduction';
 import Tabs from './components/Tabs';
 import TabContent from './components/TabContent';
 import TitleBanner from './components/TitleBanner';
+import Opportunities from './sections/Opportunities';
+import ImageWithTitle from './components/ImageWithTitle';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -114,6 +116,12 @@ function App() {
           </section>
           <section>
             <TitleBanner title="opportunities" />
+            <ImageWithTitle
+              imageSrc="/assets/community.png"
+              imageAlt="Kevin with his 'lil mascot Echo, the Sun Conure (bird). So fun!"
+              imageClassName="your-custom-image-class"
+              title="community"
+            />
           </section>
         </>
       )}
