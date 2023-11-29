@@ -57,7 +57,6 @@
   .textContainer {
     margin: 3rem; /* Further reduce margin for smaller screens */
     letter-spacing: normal;
-    line-height: 0.7;
   }
 
   .h2 {
@@ -70,7 +69,6 @@
 
   .h4 {
     font-size: 1rem; /* Further decrease font size for smaller screens */
-    line-height: 2;
   }
 
   .ctaContainer {
@@ -79,5 +77,16 @@
 
   .linkContainer {
     padding: 1.5rem; /* Further decrease padding for smaller screens */
+    font-size: 4rem;
+  }
+  .cta {
+    font-size: 1.6rem;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .cta {
+    font-size: 1.2rem;
   }
 }
