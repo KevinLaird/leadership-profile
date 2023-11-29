@@ -1,11 +1,35 @@
+/* Default styles */
 .title {
   text-transform: uppercase;
   color: #fefefe;
   letter-spacing: 0.4rem;
+  font-size: 7rem;
+  word-wrap: break-word; /* Use word-wrap instead of overflow-wrap */
 }
 
 .box {
-  width: 100%;
   padding: 2rem 0;
   background-color: #fc7060;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .box {
+    padding: 1rem 0;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .box {
+    padding: 0.5rem 0;
+  }
 }
