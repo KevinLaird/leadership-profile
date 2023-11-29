@@ -7,8 +7,11 @@
 
 .textContainer {
   max-width: 100%; /* Allow text to take up the full width on small screens */
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
 }
 
 .imageContainer {
