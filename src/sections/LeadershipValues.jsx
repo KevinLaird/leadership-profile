@@ -8,7 +8,7 @@ const LeadershipValues = () => {
   ];
 
   const empathyContent = [
-    'While I can’t understand where everyone is coming from, I can certainly empathize with their feelings. When I was a manager at Hostwinds, I emphasized empathy to my team as one of the greatest strengths they can have. This is especially relevant in tech support because while you may not understand the issue yet or understand where the person they’re helping is coming from, they can certainly empathize with them and work together to find a solution that is right for them. ',
+    `While I can't comprehend every perspective, I can certainly empathize with their feelings. When I was a manager at Hostwinds, empathy was at the core of my leadership style when training my team; it is one of the greatest strengths they can possess. This is especially relevant in tech support because, even if they don't fully understand the issue or where the person they're helping is coming from, they can certainly empathize and collaborate to find a solution that suits them.`,
   ];
 
   const stabilityContent = [
@@ -48,8 +48,8 @@ const LeadershipValues = () => {
       label: 'Stability',
       content: (
         <TabContent
-          imageSrc="/assets/kevinWithABird.png"
-          imageAlt="Profile picture of Kevin Laird smiling. Ain't he cute?"
+          imageSrc="/assets/scale.png"
+          imageAlt=""
           imageClassName="your-custom-image-class"
           title="Stability"
           paragraphs={stabilityContent}
